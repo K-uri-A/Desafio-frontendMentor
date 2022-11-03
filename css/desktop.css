@@ -1,0 +1,139 @@
+#fondo{
+    background-color: hsl(257, 40%, 49%);
+}
+
+#div-fondo{
+    width:90%;
+    height:100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left:0;
+}
+
+#div-logo{
+    width: 15%;
+    position: absolute;
+    z-index: 100;
+    top: 10%;
+    left:5%;
+}
+
+#div-imagen{
+    width: 50%;
+    position: absolute;
+    top: 24%;
+    left: 5%;
+}
+
+#div-texto{
+    width: 30%;
+    color: #ffffff;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+#titulo{
+    font-size: 40px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contenido{
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+#div-regresar{
+    width: 12%;
+    height: 5%;
+    position: absolute;
+    color: #6e18beee;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 5%;
+    right: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
+    border: none;
+    transition: 1s;
+}
+
+#div-regresar:hover{
+    background:  hsl(300, 69%, 71%);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+#div-boton{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    color: #6e18beee;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 60%;
+    right: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
+    border: none;
+    transition: 1s;
+}
+
+#div-boton:hover{
+    background:  hsl(300, 69%, 71%);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#div-izquierda{
+    width: 4%;
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    filter: invert(1);
+}
+
+#div-izquierda:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+
+#div-face{
+    width: 2%;
+    position: absolute;
+    z-index: 200;
+    bottom: 5%;
+    right: 15%;
+    filter: invert(1);
+}
+
+#div-face:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+
+#div-insta{
+    width: 2%;
+    position: absolute;
+    z-index: 200;
+    bottom: 5%;
+    right: 10%;
+    filter: invert(1);
+}
+
+#div-insta:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+
+#div-twi{
+    width: 2%;
+    position: absolute;
+    z-index: 200;
+    bottom: 5%;
+    right: 5%;
+    filter: invert(1);
+}
+
+#div-twi:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
